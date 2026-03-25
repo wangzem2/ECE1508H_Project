@@ -1,8 +1,6 @@
 # Explainability of Large Language Models for Classification Tasks
-> **Note on Notebook Preview:** > Due to the large file size and interactive widgets (like tqdm), GitHub's native viewer may occasionally fail to render the `.ipynb` file. 
-> **If you encounter a "Large diffs" or "Invalid Notebook" error**, please:
-> 1. **Download** the file and open it locally via Jupyter/VS Code.
-> 2. Or, use [nbviewer](https://nbviewer.org/) by pasting this repository's URL to view the rendered version online.
+> **Note on Notebook Preview:** Due to the large file size and interactive widgets like tqdm, GitHub's native viewer may occasionally fail to render the `.ipynb` file. 
+> If you encounter a "Large diffs" or "Invalid Notebook" error, please download the file and open it locally via Jupyter/VS Code.
 
 **Group 1**: Dongxuan Li, Zemeng Wang, Chaochen Zhang
 
