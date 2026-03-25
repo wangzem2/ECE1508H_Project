@@ -1,4 +1,9 @@
 # Explainability of Large Language Models for Classification Tasks
+> **Note on Notebook Preview:** > Due to the large file size and interactive widgets (like tqdm), GitHub's native viewer may occasionally fail to render the `.ipynb` file. 
+> **If you encounter a "Large diffs" or "Invalid Notebook" error**, please:
+> 1. **Download** the file and open it locally via Jupyter/VS Code.
+> 2. Or, use [nbviewer](https://nbviewer.org/) by pasting this repository's URL to view the rendered version online.
+
 **Group 1**: Dongxuan Li, Zemeng Wang, Chaochen Zhang
 
 ## Project Overview
@@ -9,5 +14,9 @@ This project explores the interpretability of Large Language Models (LLMs). Usin
 - **Ablation**: Identified **Rank r=8** as the optimal configuration.
 - **CoT Insight**: Observed that Chain-of-Thought prompting can negatively impact small-scale models.
 
-## Usage
-All core logic is contained within `Project_Main.ipynb`.
+## Project Structure
+* `Project_Main.ipynb`: The core notebook containing all 8 modules (Training, Evaluation, CoT, and Error Analysis).
+* `lora_gpt2_cose_ckpt/`: LoRA fine-tuned weights for the base model.
+* `lora_gpt2_cose_cot_ckpt/`: LoRA fine-tuned weights using Chain-of-Thought prompting.
+* `lora_rank_ablation_outputs/`: Results and logs for the LoRA Rank ablation study ($r=4, 8, 16$).
+* `requirements.txt`: Environment dependencies.
