@@ -1,0 +1,14 @@
+torch
+torchvision
+transformers
+peft
+datasets
+evaluate
+bert-score
+scikit-learn
+pandas
+numpy
+matplotlib
+tqdm
+safetensors
+ipython

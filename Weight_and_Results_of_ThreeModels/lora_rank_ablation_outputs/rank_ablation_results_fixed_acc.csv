@@ -1,0 +1,5 @@
+model,lora_rank,val_acc@200,checkpoint_dir
+baseline_gpt2,0,0.16,N/A
+gpt2_lora,4,0.345,./lora_rank_ablation_outputs/gpt2_lora_r4
+gpt2_lora,8,0.36,./lora_rank_ablation_outputs/gpt2_lora_r8
+gpt2_lora,16,0.33,./lora_rank_ablation_outputs/gpt2_lora_r16
