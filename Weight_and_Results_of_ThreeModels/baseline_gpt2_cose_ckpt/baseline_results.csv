@@ -1,0 +1,2 @@
+model,prompt,epochs,batch_size,learning_rate,val_accuracy_at_200
+GPT-2 full fine-tuning,Normal,3,4,5e-05,0.305
