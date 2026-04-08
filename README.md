@@ -13,7 +13,7 @@ This project explores the interpretability of Large Language Models (LLMs). Usin
 - **CoT Insight**: Observed that Chain-of-Thought prompting can negatively impact small-scale models.
 
 ## Project Structure
-* `Project_Main.ipynb`: The core notebook containing all 8 modules (Training, Evaluation, CoT, and Error Analysis).
+* `Group1_Project_Main.ipynb`: The core notebook containing all 8 modules (Training, Evaluation, CoT, and Error Analysis).
 * `lora_gpt2_cose_ckpt/`: LoRA fine-tuned weights for the base model.
 * `lora_gpt2_cose_cot_ckpt/`: LoRA fine-tuned weights using Chain-of-Thought prompting.
 * `lora_rank_ablation_outputs/`: Results and logs for the LoRA Rank ablation study ($r=4, 8, 16$).
