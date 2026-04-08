@@ -13,10 +13,10 @@ This project explores the interpretability of Large Language Models (LLMs). Usin
 - **CoT Insight**: Observed that Chain-of-Thought prompting can negatively impact small-scale models.
 
 ## Project Structure
-* `Group1_Project_Main.ipynb`: The core notebook containing all 8 modules (Training, Evaluation, CoT, and Error Analysis).
-* `lora_gpt2_cose_ckpt/`: In Weight_and_Results_of_ThreeModels folder: LoRA fine-tuned weights for the base model.
-* `lora_gpt2_cose_cot_ckpt/`: In Weight_and_Results_of_ThreeModels folder: LoRA fine-tuned weights using Chain-of-Thought prompting.
-* `lora_rank_ablation_outputs/`: In Weight_and_Results_of_ThreeModels folder: Results and logs for the LoRA Rank ablation study ($r=4, 8, 16$).
-* `baseline_gpt2_cose_ckpt`: : In Weight_and_Results_of_ThreeModels folder: Weights and results for the baseline model.
-* `requirements.txt`: Environment dependencies.
-* `main_comparison_results.csv`: In Doc folder: Final test results comparision. 
+* `Group1_Project_Main.ipynb`: The main notebook that integrates all components of the project, including model training, evaluation, LoRA adaptation, Chain-of-Thought (CoT) prompting, ablation study, and error analysis.
+* `lora_gpt2_cose_ckpt/:`: In Weight_and_Results_of_ThreeModels folder: LoRA adapter weights for the fine-tuned GPT-2 model.
+* `lora_gpt2_cose_cot_ckpt/:`: In Weight_and_Results_of_ThreeModels folder: LoRA adapter weights evaluated with Chain-of-Thought (CoT) prompting.
+* `lora_rank_ablation_outputs/:`: In Weight_and_Results_of_ThreeModels folder: Contains trained LoRA checkpoints (r=4, 8, 16), along with evaluation results and logs for the rank ablation study.
+* `baseline_gpt2_cose_ckpt/:`: (Optional) Results for the zero-shot GPT-2 baseline (no fine-tuned weights stored).
+* `requirements.txt:`: Environment dependencies required to run the project.
+* `main_comparison_results.csv:`: In Doc folder: Final validation results comparison across all models.
