@@ -1,0 +1,6 @@
+Model,Prompt,LoRA Rank,Setting,Val Accuracy@200
+GPT-2,Normal,-,Zero-shot,0.16
+GPT-2,CoT,-,Zero-shot,0.06
+GPT-2 + LoRA,Normal,8,PEFT (LoRA),0.36
+GPT-2 + LoRA,CoT,8,PEFT (LoRA),0.35
+GPT-2,Normal,-,Full fine-tuning baseline,0.305
