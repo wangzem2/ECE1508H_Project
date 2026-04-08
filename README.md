@@ -18,3 +18,4 @@ This project explores the interpretability of Large Language Models (LLMs). Usin
 * `lora_gpt2_cose_cot_ckpt/`: LoRA fine-tuned weights using Chain-of-Thought prompting.
 * `lora_rank_ablation_outputs/`: Results and logs for the LoRA Rank ablation study ($r=4, 8, 16$).
 * `requirements.txt`: Environment dependencies.
+* `main_comparison_results.csv`: Final test results comparision. 
